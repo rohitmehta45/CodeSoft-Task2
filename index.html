@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="/style/style.css"> 
+</head>
+<body>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css"> 
+    <title>Job Board</title>
+</head>
+<body>
+    <header>
+        <h1>Job Board</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <input type="text" id="search" placeholder="Search jobs..." oninput="filterJobs()">
+        </aside>
+        <section class="job-listings" id="job-listings">
+            <article class="job">
+                <h2>Frontend Developer</h2>
+                <p>Company: Tech Solutions</p>
+                <p>Location: Remote</p>
+                <p>Description: Work on innovative projects...</p>
+                <button>Apply Now</button>
+            </article>
+            <article class="job">
+                <h2>Backend Developer</h2>
+                <p>Company: Dev Corp</p>
+                <p>Location: New York</p>
+                <p>Description: Build and maintain APIs...</p>
+                <button>Apply Now</button>
+            </article>
+            <article class="job">
+                <h2>UI/UX Designer</h2>
+                <p>Company: Creative Agency</p>
+                <p>Location: San Francisco</p>
+                <p>Description: Design user-friendly interfaces...</p>
+                <button>Apply Now</button>
+            </article>
+            <!-- Add more job listings as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Job Board. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
